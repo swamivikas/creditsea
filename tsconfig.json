@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",        // Ensures Node.js compatibility
+    "target": "ES2020",          // JavaScript version to compile to
+    "outDir": "./dist",          // Output folder for compiled JavaScript files
+    "esModuleInterop": true,     // Ensures compatibility with ES modules
+    "strict": true,              // Enables strict type-checking options
+    "skipLibCheck": true         // Skips type-checking for declaration files
+  },
+  "include": ["./*.ts"]           // Include all TypeScript files in the project
+}
